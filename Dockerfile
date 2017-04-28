@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	wget \
 
-RUN git clone https://github.com/gamelinux/prads.git && \
+RUN git clone https://github.com/kbavishi/prads-1.git && \
  cd prads && \
  make && \
  make install
