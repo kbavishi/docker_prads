@@ -22,7 +22,7 @@ RUN apt-get update && apt-get install -y \
 	tcpdump \
 	tcpreplay \
 	vim \
-	wget \
+	wget
 
 RUN git clone https://github.com/kbavishi/prads-1.git && \
  cd prads && \
