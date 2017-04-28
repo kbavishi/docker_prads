@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y \
 	vim \
 	wget
 
-RUN git clone https://github.com/kbavishi/prads-1.git && \
+RUN git clone https://github.com/kbavishi/prads-1.git prads && \
  cd prads && \
  make && \
  make install
